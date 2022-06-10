@@ -46,8 +46,9 @@ const App = () => {
           
           <article key ={_id} className="bg-white py-10 px-5 rounded-lg lg:mx-center">
             <h2 className="font-bold text-2xl mb-5 lg:text-4xl">{main}</h2>
-            { /* <p>{abstract}</p> 
-            <p>{lead_paragraph}</p> */}
+            <p>{abstract}</p> 
+            
+            <p>{lead_paragraph}</p>
 
          
           <ul className="my-4">
